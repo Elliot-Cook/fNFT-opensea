@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/fnftstack.sol": "fnftbank"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FNFT.sol": {
+			"keccak256": "0x92bd12a7c2813d00ecd725a3a8ec37fed9adb8de70c780a6a051a51757be06d1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ecd86f3516d40f96b93a7f502157806657316c556afb688148eb488b73832419",
+				"dweb:/ipfs/QmUcwR4i2VA1VPoRuwKes1tFrCnnL6YHT9nZXBFgvU6Eb9"
+			]
+		},
+		"contracts/fnftstack.sol": {
+			"keccak256": "0x373465feadc0a54c74f32a9aded5a83b14f4cc11308ca7cdb8fc2956a40e058a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6250c92c98f3fb8dbc11b883587f0b7f2a095e2ebc28ba4b6261ae0c06d9ae75",
+				"dweb:/ipfs/QmPTyQpxVp4XSp2HxQW612EYBYujH66WR4KuTUyKaTTXXv"
+			]
+		}
+	},
+	"version": 1
+}
